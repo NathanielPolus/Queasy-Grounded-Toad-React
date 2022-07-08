@@ -1,0 +1,25 @@
+.home-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.home-container1 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: var(--dl-size-size-small);
+  display: flex;
+  align-items: center;
+  border-color: #17328d;
+  border-style: double;
+  border-width: 2px;
+  justify-content: flex-start;
+  background-color: #17328d;
+}
+.home-image {
+  width: 133px;
+  height: 39px;
+  object-fit: cover;
+}
